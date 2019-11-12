@@ -12,10 +12,10 @@ import com.cerner.Remittance_demo.dao.CodeValue;
 public class CodeSets {
 	CodeValue cv = new CodeValue();
 	// below strings returns the file path of sql files.
-	public static final String groupbypayerbySelfPay = "C:\\Users\\PG074553\\eclipse-workspace\\Remittance_demo\\src\\main\\resources\\GroupByPayerbySelfPay.sql";
-	public static final String groupbypayerbyClientResearch = "C:\\Users\\PG074553\\eclipse-workspace\\Remittance_demo\\src\\main\\resources\\GroupByPayerbyClientResearch.sql";
-	public static final String groupbypayerbyIME = "C:\\Users\\PG074553\\eclipse-workspace\\Remittance_demo\\src\\main\\resources\\GroupByPayerbyIME.sql";
-	public static final String currencycode = "C:\\Users\\PG074553\\eclipse-workspace\\Remittance_demo\\src\\main\\resources\\CurrencyCode.sql";
+	public static final String groupbypayerbySelfPay = "\\src\\main\\resources\\GroupByPayerbySelfPay.sql";
+	public static final String groupbypayerbyClientResearch = "\\src\\main\\resources\\GroupByPayerbyClientResearch.sql";
+	public static final String groupbypayerbyIME = "\\src\\main\\resources\\GroupByPayerbyIME.sql";
+	public static final String currencycode = "\\src\\main\\resources\\CurrencyCode.sql";
 
 	private float CS25753_REVERSAL = 0;
 	private float CS18937_REVERSAL = 0;
